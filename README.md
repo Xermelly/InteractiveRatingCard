@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-G2JWQ6r_iB)
-- Live Site URL: [Vercel](https://socialproofsection-five.vercel.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-ew_FcvZFTV)
+- Live Site URL: [Vercel](https://interactiveratingcard.vercel.app/)
 
 ## My process
 
