@@ -1,0 +1,50 @@
+:root {
+  --primary-orange: hsl(25, 97%, 53%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-light-grey: hsl(217, 12%, 63%);
+  --neutral-medium-grey: hsl(216, 12%, 54%);
+  --neutral-dark-blue: hsl(213, 20%, 18%);
+  --neutral-verydark-blue: hsl(216, 12%, 8%);
+  --font-overpass-400: 400 0.9375rem/1.5 "Overpass", sans-serif;
+  --font-overpass-600: 600 1.5rem/1 "Overpass", sans-serif;
+}
+.color-orange {
+  color: var(--primary-orange);
+}
+.color-white {
+  color: var(--neutral-white);
+}
+.color-light-grey {
+  color: var(--neutral-light-grey);
+}
+.color-medium-grey {
+  color: var(--neutral-medium-grey);
+}
+.color-dark-blue {
+  color: var(--neutral-dark-blue);
+}
+.color-verydark-blue {
+  color: var(--neutral-verydark-blue);
+}
+.font-overpass-400 {
+  font: var(--font-overpass-400);
+}
+.font-overpass-600 {
+  font: var(--font-overpass-600);
+}
+.button {
+  width: 100%;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background-color: var(--primary-orange);
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--primary-orange);
+  background-color: var(--neutral-white);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rating</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main class="container">
+
+    <div id="card-rating" class="rating-card active">
+      <div class="rating-content">
+        <img id="star-img" src="./images/icon-star.svg" alt="">
+        <h1 class="font-overpass-600 color-white">How did we do?</h1>
+        <p class="font-overpass-400 color-medium-grey">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      </div>
+      <ul class="rating-valor color-light-grey">
+        <li class="rate-1">
+          1
+        </li>
+        <li class="rate-2">
+          2
+        </li>
+        <li class="rate-3 rate-selected">
+          3
+        </li>
+        <li class="rate-4">
+          4
+        </li>
+        <li class="rate-5">
+          5
+        </li>
+      </ul>
+      <span id="submit-btn" class="button color-white font-overpass-400">Submit</span>
+    </div>
+
+    <div id="card-thanks" class="rating-card">
+      <div class="rating-content thanks">
+        <img class="img-thanks" src="./images/illustration-thank-you.svg" alt="">
+        <span id="rating-choice" class="color-orange"></span>
+        <h1 class="font-overpass-600 color-white">Thank you!</h1>
+        <p class="font-overpass-400 color-medium-grey">We appreciated you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+      </div>
+    </div>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
